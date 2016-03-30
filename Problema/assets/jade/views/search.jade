@@ -1,0 +1,20 @@
+section.search
+	.container
+		.row
+			.col-md-4
+				i.fa.fa-clock-o
+				.text
+					h3 OPENING TIME
+					h5 9.00 AM - 10.00 PM
+			.col-md-4
+				img(src='assets/images/logo.png')
+			.col-md-4
+				form(role="search",action='/uri/blah' method='post').navbar-form.navbar-left
+					.form-group 
+						input(type="name", name="bae", placeholder="bae", required).form-control
+						select(id="type",name="type").form-control
+							option(value="foo") foo
+							option(value="bar") bar
+							option(value="baz") baz
+						input(type="text", name="X", placeholder="X", required).form-control
+						input(type="checkbox", name="checkboxname", text="asdf").form-control

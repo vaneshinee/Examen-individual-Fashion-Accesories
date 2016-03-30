@@ -1,0 +1,23 @@
+include ./mixins/mixins.jade
+doctype html
+html(lang="en")
+	head
+		title Fashion Accesories
+		meta(charset='utf-8')
+		link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway' type='text/css')
+		link(rel="stylesheet", href="assets/css/main.css")
+		link(rel="stylesheet", href="assets/font-awesome/css/font-awesome.min.css")
+		link(rel="stylesheet", href="assets/sass/main.css")
+		link(rel="stylesheet", href="assets/css/bootstrap.css")
+
+	body
+		include views/header
+		include views/search
+		include views/cabecera
+		include views/mapa
+		include views/more-info
+		include views/footer
+
+		script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+		script(type='text/javascript' src='./assets/js/bootstrap.min,js')
+		script(src='assets/js/main.js')

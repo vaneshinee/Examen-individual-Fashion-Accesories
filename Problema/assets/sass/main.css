@@ -1,0 +1,26 @@
+header {
+  background-color: #EEEEEE; }
+  header img {
+    width: 100%; }
+  header a i {
+    font-size: 15px; }
+
+.banner {
+  background-image: url(../../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  color: white;
+  padding: 18% 0; }
+  .banner h1 {
+    font-size: 5.2em;
+    background-color: #E48080;
+    padding: 1%;
+    font-family: 'Raleway'; }
+  .banner h5 {
+    color: white; }
+
+.footer {
+  background-color: #444444; }
+
+/*# sourceMappingURL=main.css.map */
